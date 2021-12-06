@@ -37,3 +37,7 @@ python gwells_locationqa.py geocode  not_an_api_key
 
 
 ------end geocode.sh ---
+
+
+Lots of code for the Dockerfile comes from this image, and there is more to learn there..
+https://github.com/tschaffter/rstudio
