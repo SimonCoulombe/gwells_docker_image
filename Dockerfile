@@ -67,8 +67,10 @@ RUN ./GWELLS_LocationQA/get_esa_worldcover_bc.sh  &&\
 #COPY prout.sh /tmp/prout.sh
 
 # install R libraries
-#RUN install2.r --error --skipinstalled --ncpus -1 \
-#    janitor \
-#    sessioninfo \
-#    kableExtra \
-#    mapview
+RUN install2.r --error --skipinstalled --ncpus -1 \
+    janitor \
+    sessioninfo \
+    kableExtra \
+    mapview \
+    reticulate
+

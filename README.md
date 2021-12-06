@@ -1,6 +1,25 @@
+## Description 
+
 this is a python / R / geospatial docker image that has the required environment to run the scripts at  https://github.com/bcgov/GWELLS_LocationQA
 
-The gwells_qa_data github will run daly and save the results
+The gwells_qa_data github will run daily and save the results
+
+
+
+## Deploying to dockerhub
+
+docker build  -t monrstudio .
+docker tag monrstudio  morglum/monrstudio
+docker push morglum/monrstudio
+
+
+## Credits  
+
+Lots of code for the Dockerfile comes from this image, and there is more to learn there..
+https://github.com/tschaffter/rstudio
+
+
+## Notes   
 
 
 This is my first non-hello-world docker, so here is more info than required:  
@@ -38,6 +57,3 @@ python gwells_locationqa.py geocode  not_an_api_key
 
 ------end geocode.sh ---
 
-
-Lots of code for the Dockerfile comes from this image, and there is more to learn there..
-https://github.com/tschaffter/rstudio
