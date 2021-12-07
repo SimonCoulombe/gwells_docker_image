@@ -22,7 +22,7 @@ https://github.com/tschaffter/rstudio
 ## Notes   
 
 
-This is my first non-hello-world docker, so here is more info than required:  
+Here is more info than required:  
 
 Here is a line of code to start the server with "yourpasswordhere".  The rstudio server will be available at 127.0.0.1:8787.  
 The -v (volume) allows us to work on code that is available locally.
