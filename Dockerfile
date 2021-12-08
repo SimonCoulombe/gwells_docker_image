@@ -74,3 +74,7 @@ RUN install2.r --error --skipinstalled --ncpus -1 \
     mapview \
     reticulate
 
+COPY download.sh /
+RUN ./download.sh &&\
+  mv /data/pmbc_parcel_fabric_poly_svw.gdb /GWELLS_LocationQA/data/ &&\
+  rm -rf data
