@@ -51,7 +51,7 @@ We do not use reticulate in this project, because reticulate converts functions 
 
 The easiest way I found to run the python scripts from the `gwells_locationqa` environment is to create a shell script that activates the environment and calls the .py file, like so:
 
------ begin geocode.sh -------  
+### geocode.sh:
 
     #!/bin/bash  
     #set -euxo pipefail  
@@ -61,5 +61,4 @@ The easiest way I found to run the python scripts from the `gwells_locationqa` e
     python gwells_locationqa.py geocode  not_an_api_key  
 
 
-------end geocode.sh ---
 
