@@ -15,7 +15,7 @@ Lots of code for the Dockerfile comes from [this image by Thomas Schaffer](https
 ## Notes   
 
 
-This is my first non-hello-world docker, so here is more info than required:  
+Here is more info than required:  
 
 
 Here is the lines of codes I use to build the image and upload it to dockerhub (my username is morglum):
