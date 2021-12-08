@@ -10,7 +10,7 @@ A third repo, `gwells_shiny` will read these csv and display them.
 
 ## Credits  
 
-Lots of code for the Dockerfile comes from [this image by Thomas Schaffer](https://github.com/tschaffter/rstudio), and there is more to learn there..
+Lots of code for the Dockerfile comes from [this image by Thomas Schaffer](https://github.com/tschaffter/rstudio), and there is more useful stuff there.
 
 ## Notes   
 
